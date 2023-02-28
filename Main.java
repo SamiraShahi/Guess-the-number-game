@@ -18,6 +18,7 @@ public class Main {
             int userGuess=inputObj.nextInt();
             if(computernum==userGuess){
                 System.out.println("Your guess is correct!The number of times you took to guess my number is:"+i);
+                break;
             }
             else if(computernum>userGuess){
                 System.out.println(userGuess+" is too low,Please guess a higher number.");
